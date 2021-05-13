@@ -1,0 +1,13 @@
+{
+	"name": "enumify",
+	"description": "A tool to generate 'enums' of dynamic values in D code.",
+	"copyright": "Copyright © 2021, João Lourenço",
+	"license": "LGPL-3.0",
+	"sourcePaths": ["source"],
+	"importPaths": ["source"],
+	"targetPath": "bin",
+	"targetType": "library",
+	"dependencies": {
+		"sumtype": "~>1.1.1"
+	}
+}
